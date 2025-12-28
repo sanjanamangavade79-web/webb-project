@@ -1,0 +1,77 @@
+/* General Page Style */
+body {
+    background-color: #FFFFFF;            /* White background */
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+}
+
+/* Page Container */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    text-align:center;
+    color: #004AAD;                       /* Strong Blue */
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+/* Form Box */
+form {
+    background-color: #E6F0FF;            /* Light blue form background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: auto;
+}
+
+/* Input Fields */
+input[type="file"],
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #A3C5FF;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* Button Style */
+button {
+    width: 50%;
+    padding: 12px;
+    margin-top: 18px;
+    background-color: #0084FF;            /* Bright Blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0066CC;            /* Slightly darker blue */
+}
+
+/* Summary Text Box */
+pre {
+    background-color: #F0F6FF;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 25px auto;
+    text-align: left;
+    border: 1px solid #B9D7FF;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 15px;
+}

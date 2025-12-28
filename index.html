@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Search and Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <div class='container'>
+    <h1>Upload File and Search Words</h1>
+    <form method="POST" action="/" enctype="multipart/form-data">
+        <input type="file" name="file" required><br><br>
+     <input type="text" name="keywords" placeholder="enter keyword separated by comma" required><br><br>
+        <button type="submit">Upload and Summaraize</button>
+    </form>
+    </div>
+    {% if summary %}
+
+    <h2>Summary:</h2>
+
+    <pre>{{ summary }}</pre>
+    {% endif %}
+</body>
+</html>
